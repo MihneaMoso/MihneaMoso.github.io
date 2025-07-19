@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { ArrowRight, Github, Linkedin, Mail, Instagram } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { ProjectCard } from "@/components/project-card"
@@ -39,8 +39,7 @@ export default function Portfolio() {
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
               <span className="block">Hi, I'm</span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-                Mosorescu
-                Mihnea
+                Mosorescu Mihnea
               </span>
             </h1>
             <p className="text-xl text-zinc-400 max-w-[600px]">
@@ -55,7 +54,7 @@ export default function Portfolio() {
               </Button>
               <Button
                 variant="outline"
-                className="border-zinc-700 text-zinc-300 hover:text-white hover:border-zinc-500"
+                className="border-zinc-700 text-zinc-300 hover:text-white hover:border-zinc-500 bg-transparent"
               >
                 Contact Me
               </Button>
@@ -71,7 +70,11 @@ export default function Portfolio() {
                   <span className="sr-only">GitHub</span>
                 </Button>
               </Link>
-              <Link href="https://www.linkedin.com/in/shinekyawkyawaung/" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://www.linkedin.com/in/mihnea-mosorescu-0bb627346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button
                   variant="ghost"
                   size="icon"
@@ -81,14 +84,14 @@ export default function Portfolio() {
                   <span className="sr-only">LinkedIn</span>
                 </Button>
               </Link>
-              <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://instagram.com/13.moso/" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="icon"
                   className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
                 >
-                  <Twitter className="h-5 w-5" />
-                  <span className="sr-only">Twitter</span>
+                  <Instagram className="h-5 w-5" />
+                  <span className="sr-only">Instagram</span>
                 </Button>
               </Link>
               <Link href="mailto:hello@example.com">
@@ -163,9 +166,7 @@ export default function Portfolio() {
                 <div className="grid grid-cols-2 gap-4 mt-8">
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Name</div>
-                    <div className="font-medium">Mosorescu
-                    Mihnea
-                    </div>
+                    <div className="font-medium">Mosorescu Mihnea</div>
                   </div>
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Email</div>
@@ -386,14 +387,14 @@ export default function Portfolio() {
                 <span className="sr-only">LinkedIn</span>
               </Button>
             </Link>
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://instagram.com/13.moso/" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
                 className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
               >
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
+                <Instagram className="h-5 w-5" />
+                <span className="sr-only">Instagram</span>
               </Button>
             </Link>
             <Link href="mailto:hello@example.com">
