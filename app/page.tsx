@@ -94,7 +94,7 @@ export default function Portfolio() {
                   <span className="sr-only">Instagram</span>
                 </Button>
               </Link>
-              <Link href="mailto:hello@example.com">
+              <Link href="mailto:mihnea.mosorescu@gmail.com">
                 <Button
                   variant="ghost"
                   size="icon"
@@ -133,8 +133,8 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="/placeholder.svg?height=600&width=600"
-                  alt="Shine Kyaw Kyaw Aung"
+                  src="/placeholder.svg?height=600&width=600" // TODO: replace with photo
+                  alt="MihneaMoso"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -360,7 +360,6 @@ export default function Portfolio() {
           <div>
             <Link href="/" className="font-bold text-xl">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Mihnea</span>
-              <span className="text-white">KKA</span>
             </Link>
             <p className="text-sm text-zinc-500 mt-2">
               © {new Date().getFullYear()} Mosorescu Mihnea. All rights reserved.
