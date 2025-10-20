@@ -1,5 +1,5 @@
 name: Deploy Next.js to GitHub Pages
-
+ 
 on:
   push:
     branches: [main] # Or your default branch
@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '20'
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --force
       - name: Build
         run: npm run build
       - name: Export static files
